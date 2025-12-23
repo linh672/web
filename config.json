@@ -182,22 +182,10 @@
   ],
   "social": [
     {
-      "name": "Twitter",
-      "url": "https://twitter.com",
-      "icon": "fab fa-twitter",
-      "external": true
-    },
-    {
-      "name": "Facebook",
-      "url": "https://facebook.com",
-      "icon": "fab fa-facebook",
-      "external": true
-    },
-    {
-      "name": "Instagram",
-      "url": "https://instagram.com",
-      "icon": "fab fa-instagram",
-      "external": true
+      "name": "Gmail",
+      "url": "mailto:dangnhatlinh0202@gmail.com",
+      "icon": "fas fa-envelope",
+      "external": false
     },
     {
       "name": "GitHub",
