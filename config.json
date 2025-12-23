@@ -133,13 +133,6 @@
       "linkText": "View Docs"
     },
     {
-      "title": "Community",
-      "description": "Join our community forum to get help from other users.",
-      "icon": "fas fa-comments",
-      "url": "#",
-      "linkText": "Join Community"
-    },
-    {
       "title": "Report Bug",
       "description": "Found a bug? Let us know and we'll fix it as soon as possible.",
       "icon": "fas fa-bug",
@@ -215,7 +208,7 @@
     "legal": [
       {
         "label": "Privacy Policy",
-        "url": "#",
+        "url": "privacy.html",
         "external": false
       },
       {

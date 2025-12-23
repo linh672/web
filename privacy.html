@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for Prompt Manager">
+    <title>Privacy Policy - Prompt Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .privacy-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+            line-height: 1.8;
+        }
+        .privacy-content h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            color: var(--text-primary);
+        }
+        .privacy-content h2 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+        .privacy-content p {
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+        }
+        .privacy-content ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+        }
+        .privacy-content li {
+            margin-bottom: 0.5rem;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <span>Wollon</span>
+                    </a>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Privacy Policy Content -->
+    <section class="privacy-content">
+        <div class="container">
+            <a href="index.html" class="back-link">← Back to Home</a>
+            
+            <h1>Privacy Policy</h1>
+            
+            <p><strong>Prompt Manager</strong> ("we," "our," or "the App") respects your privacy. This policy explains how we collect, use, and store information when you use the App.</p>
+
+            <h2>Information We Collect</h2>
+            
+            <p><strong>Prompts and Metadata:</strong> The prompts you create (title, content, category, tags) and timestamps.</p>
+            
+            <p><strong>Storage Location:</strong> All data is stored locally on your device (UserDefaults / on-device storage).</p>
+            
+            <p><strong>Optional Sharing:</strong> If you choose to open/share a prompt (e.g., to a browser or another service), the prompt content you select is shared as part of that user-initiated action.</p>
+
+            <h2>How We Use Your Information</h2>
+            
+            <ul>
+                <li>We store and display your prompts for your personal use.</li>
+                <li>All processing is on-device; we do not run a backend for your data.</li>
+                <li>Sharing/opening a prompt to the web is only performed when you explicitly initiate it.</li>
+            </ul>
+
+            <h2>Data Storage and Security</h2>
+            
+            <ul>
+                <li>All data remains on your device.</li>
+                <li>Deleting prompts or uninstalling the app removes stored data.</li>
+                <li>There is no server-side storage.</li>
+            </ul>
+
+            <h2>Permissions</h2>
+            
+            <ul>
+                <li>The App does not require special device permissions beyond standard app functionality.</li>
+                <li>Any optional sharing is triggered only when you choose to share/open a prompt.</li>
+            </ul>
+
+            <h2>Your Rights</h2>
+            
+            <ul>
+                <li>Add, edit, and delete your prompts at any time.</li>
+                <li>Uninstalling the App deletes all stored data.</li>
+                <li>Control sharing by only initiating it when you choose.</li>
+            </ul>
+
+            <h2>Data Sharing</h2>
+            
+            <ul>
+                <li>We do not sell, share, or trade your personal data.</li>
+                <li>If you choose to open/share a prompt to an external site or service, that service's privacy policy applies to what you share.</li>
+            </ul>
+
+            <h2>International Data Transfers</h2>
+            
+            <ul>
+                <li>We do not transfer your data; it stays on your device.</li>
+                <li>Any user-initiated sharing to external services may involve their processing under their policies.</li>
+            </ul>
+
+            <h2>Compliance</h2>
+            
+            <p>Designed to align with GDPR, CCPA, COPPA, and Apple App Store Privacy Guidelines given on-device-only storage and user-initiated sharing.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Wollon</h3>
+                    <p>Making your life easier, one feature at a time.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="copyright-year"></span> Wollon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year
+        const yearElement = document.getElementById('copyright-year');
+        if (yearElement) {
+            yearElement.textContent = new Date().getFullYear();
+        }
+    </script>
+</body>
+</html>
+
